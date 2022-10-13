@@ -1,0 +1,121 @@
+.hero__aboutus-header {
+  font: {
+    size: 1rem;
+    weight: 900;
+  }
+}
+.img-container {
+  height: 180px !important;
+  .img-fluid {
+    height: 180px !important;
+    width: 100% !important;
+  }
+}
+.aboutus-paragraph-container {
+  background-color: $light;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  .text-sm-center {
+    text-align: center;
+    margin-left: 3.438rem;
+  }
+  .aboutus-paragraph {
+    font-size: 1rem;
+    a {
+      text-decoration: none;
+      color: #000;
+      font: {
+        weight: 900;
+        letter-spacing: 0.03em;
+      }
+    }
+  }
+  .img-fluid {
+    display: none;
+  }
+  .align-center {
+    align-items: center;
+  }
+}
+
+.map-section {
+  h3 {
+    font: {
+      size: 1.2rem;
+      weight: 900;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .hero__aboutus-header {
+    font: {
+      size: 1.4rem;
+      letter-spacing: 0.03em;
+    }
+  }
+  .img-fluid {
+    display: block !important;
+  }
+  .img-container {
+    height: 280px !important;
+    .img-fluid {
+      height: 280px !important;
+      width: 100% !important;
+    }
+  }
+  .mcr-img-baw {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero__aboutus-header {
+    font: {
+      size: 2rem;
+    }
+  }
+  .img-container {
+    height: 380px !important;
+    .img-fluid {
+      height: 380px !important;
+      width: 100% !important;
+    }
+  }
+  .aboutus-paragraph {
+    font: {
+      size: 1.2rem !important;
+    }
+    .strong-a-hover:hover {
+      color: $dark-text-hover;
+      transition: $transition;
+    }
+    .text-sm-center {
+      margin-left: 0px !important;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .aboutus-paragraph-container {
+    .text-sm-center {
+      margin-left: 3.438rem !important;
+    }
+  }
+}
+@media (min-width: 1600px) {
+  .img-container {
+    height: 480px !important;
+    .img-fluid {
+      height: 480px !important;
+      width: 100% !important;
+    }
+  }
+  .map-container {
+    height: 480px !important;
+    .map-aboutus {
+      height: 480px !important;
+    }
+  }
+}

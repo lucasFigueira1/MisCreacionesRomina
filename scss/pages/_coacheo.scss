@@ -1,0 +1,29 @@
+/* Cursos */
+.cursos-bg {
+  background-image: url(https://img.freepik.com/foto-gratis/textura-madera-pino_1194-5372.jpg?w=1060&t=st=1664412810~exp=1664413410~hmac=f735ef6d263652d4cafb8f32f247fc7b155387497d8cd69d1ee95c6617b6f030);
+  .clases-h1-padding {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #000;
+  }
+}
+.card {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  /* Cursos */
+  .card {
+    width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  /* cursos */
+  .cursos-btn {
+    border: none;
+    &:hover {
+      background-color: $btn-hover !important;
+      transition: $transition;
+    }
+  }
+}

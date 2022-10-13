@@ -1,0 +1,21 @@
+// Include any default variable overrides here (though functions won't be available)
+@import "complements/variables";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+@import "components/navbar";
+@import "components/footer";
+@import "pages/index";
+@import "pages/login";
+@import "pages/register";
+@import "pages/coacheo";
+@import "pages/designProd";
+@import "pages/aboutus";
+@import "pages/gallerystyles";
+@import "complements/loops";
+  
+* {
+  font-family: "Poppins";
+  box-sizing: border-box;
+}

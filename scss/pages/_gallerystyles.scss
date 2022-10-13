@@ -1,0 +1,23 @@
+
+.img-gallery {
+    width: 100%;
+    height: 63.408190224570674vh;
+    margin-bottom: 1rem;
+}
+@media (min-width: 576px) {
+    .img-gallery {
+        height: 73.40819vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .img-gallery {
+        margin-bottom: 1.5rem;
+        height: 43.40819vh;
+    }
+}
+@media (min-width: 992px) {
+    .img-gallery {
+        height: 63.408190224570674vh;
+    }
+}

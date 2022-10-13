@@ -1,0 +1,162 @@
+footer {
+  background-color: #f4f6f5;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+.footer-socials {
+  li {
+    list-style: none;
+    a {
+      i {
+        @extend .footer-socials-style;
+      }
+    }
+  }
+}
+.categorias-menu {
+  li {
+    list-style: none;
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}
+.contactanos-menu {
+  li {
+    list-style: none;
+    display: inline-flex;
+    a {
+      color: #000;
+      text-decoration: none;
+      i {
+        @extend .footer-socials-style;
+      }
+    }
+  }
+}
+.element-footer {
+  p {
+    font-size: 14px;
+  }
+  h3 {
+    font-weight: 900;
+    font-size: calc(1.26rem + 0.6vw);
+  }
+}
+.contactanos-menu {
+  .row {
+    .col-2 {
+      width: 45px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  footer {
+    .ms-4 {
+      margin-left: 4.5rem !important;
+    }
+  }
+  .footer-menu {
+    margin-left: 2.5rem;
+  }
+  .icons-ul {
+    margin-left: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    .footer-menu-item {
+      a {
+        font-size: 0.9rem;
+      }
+    }
+    .footer-socials {
+      display: flex;
+      ul {
+        padding-left: 0px;
+      }
+    }
+    .categorias-h5 {
+      font-size: 1rem;
+      font-weight: 900;
+      margin-bottom: 1rem;
+    }
+    .contactanos-menu {
+      ul {
+        padding-left: 1.6rem !important;
+      }
+      h5 {
+        font-size: 1rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+      }
+    }
+    .categorias-menu {
+      padding-left: 1.6rem !important;
+      li {
+        margin-bottom: 4px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-menu-item {
+    a:hover {
+      color: $dark-text-hover;
+      transition: $transition;
+    }
+  }
+  .element-footer {
+    .col-md-6 {
+      p {
+        width: 36.305556vw;
+      }
+    }
+  }
+  .icons-ul {
+    i:hover {
+      background-color: $dark-text-hover;
+      transition: $transition;
+    }
+  }
+  .categorias-menu li {
+    margin-bottom: 1rem !important;
+    a {
+      font-size: 1rem !important;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .element-footer {
+    .col-md-6 {
+      p {
+        width: 29.305556vw;
+      }
+    }
+  }
+}
+@media (min-width: 1500px) {
+  .element-footer {
+    h3 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    .col-md-6 {
+      p {
+        width: 24.305556vw;
+      }
+    }
+  }
+  .categorias-menu {
+    li {
+      a {
+        font-size: 1rem;
+      }
+    }
+  }
+}
