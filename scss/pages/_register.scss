@@ -9,5 +9,12 @@
     .justify-content-md-center {
         justify-content: center !important;
       }
+      .btn {
+        border: none;
+        &:hover {
+          background-color: $btn-hover !important;
+          transition: $transition;
+        }
+      }
       /* Register */
   }

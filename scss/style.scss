@@ -6,6 +6,7 @@
 // Then add additional custom code here
 @import "components/navbar";
 @import "components/footer";
+@import "pages/quierovermas";
 @import "pages/index";
 @import "pages/login";
 @import "pages/register";
@@ -14,8 +15,12 @@
 @import "pages/aboutus";
 @import "pages/gallerystyles";
 @import "complements/loops";
-  
+
 * {
   font-family: "Poppins";
   box-sizing: border-box;
+
+  ::selection {
+    background-color: rgba(181, 158, 156, 0.3);
+  }
 }

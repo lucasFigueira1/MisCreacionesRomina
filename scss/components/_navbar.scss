@@ -82,6 +82,11 @@ nav {
         }
       }
     }
+    .dropdown-menu {
+      .dropdown-item:active {
+        background-color: #e9ecef;
+      }
+    }
   }
 }
 
