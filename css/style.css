@@ -8663,7 +8663,7 @@ footer {
     display: none; }
 
 @media (min-width: 387px) and (max-width: 576px) {
-  .col-md-7 {
+  .banner-content-container {
     margin-left: auto;
     width: 387px; } }
 
