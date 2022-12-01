@@ -8394,6 +8394,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.stop-scrolling {
+  overflow: hidden; }
+
 /* Navbar */
 nav .text-styles .navbar-brand {
   color: #242323;
@@ -8422,6 +8425,44 @@ nav a {
 
 nav .navbar-toggler {
   border: none; }
+
+@media (max-width: 992px) {
+  .Nav {
+    display: none; }
+  .nav-active {
+    z-index: 2;
+    display: block;
+    background-color: #fff;
+    position: fixed;
+    top: 3rem;
+    width: 100%;
+    padding: 2rem;
+    transition: 0.8s ease-in-out;
+    height: 100vh;
+    right: 0; }
+    .nav-active ul {
+      margin-top: 2rem;
+      gap: 2rem; }
+      .nav-active ul li a {
+        font-weight: 500; }
+  .bars-menu {
+    width: 30px;
+    height: 30px; }
+    .bars-menu .bars__menu-span {
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: #242323;
+      margin-top: 6px;
+      transform-origin: 0px 100%;
+      transition: all 300ms; }
+    .bars-menu .activeline1__bars-menu {
+      transform: rotate(45deg) translate(-2px, 1px); }
+    .bars-menu .activeline2__bars-menu {
+      opacity: 0;
+      margin-left: -30px; }
+    .bars-menu .activeline3__bars-menu {
+      transform: rotate(-45deg) translate(-4px, 2px); } }
 
 @media (min-width: 768px) {
   .text-styles .navbar-brand {

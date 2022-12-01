@@ -1,247 +1,369 @@
 <!DOCTYPE html>
-<html>
-<head>
-
-    <link rel="icon" href="img/mcr.ico">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Venta de productos de porcelana personalizados">
-    <meta name="keywords" content="porcelana, porcelain, taza, cafe, tea, coffee, platos, html5, css3, sass, ecommerce">
-    <script src="https://kit.fontawesome.com/865fc70d83.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+<html lang="es">
+  <head>
+    <link rel="icon" href="img/mcr.ico" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Venta de productos de porcelana personalizados"
+    />
+    <meta
+      name="keywords"
+      content="porcelana, porcelain, taza, cafe, tea, coffee, platos, ecommerce"
+    />
+    <script
+      src="https://kit.fontawesome.com/865fc70d83.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Mis Creaciones Romina</title>
     <!-- Bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
 
     <!-- 1. Owl Carousel Min.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- 2. Owl Carousel Theme Min.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Main css -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
 
     <header class="container mt-md-4">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid text-styles">
-              <a class="navbar-brand" href="index.html">MisCreacionesRomina.</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="ms-auto"></div>
-                <ul class="navbar-nav">
-                  <li class="nav-item nav-item-hover">
-                    <a class="nav-link nav-link-hover" href="index.html">INICIO</a>
-                  </li>
-                  <li class="nav-item nav-item-hover">
-                    <a class="nav-link nav-link-hover" href="aboutus.html">ACERCA DE</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link nav-link-hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      SERVICIOS
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="designProd.html">CREA TU DISEÑO</a>
-                      <a class="dropdown-item" href="coacheo.html">CLASES DE PORCELANA</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="login.html"><button class="btn btn-primary">INICIAR SESIÓN</button></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid text-styles">
+          <a class="navbar-brand" href="index.html">MisCreacionesRomina.</a>
+          </button>
+          <div class="Nav scrolljs ms-auto" id="navbarNav">
+            <div class="ms-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item nav-item-hover">
+                <a class="nav-link nav-link-hover" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item nav-item-hover">
+                <a class="nav-link nav-link-hover" href="aboutus.html"
+                  >ACERCA DE</a
+                >
+              </li>
+              <li class="nav-item nav-item-hover">
+                <a class="nav-link nav-link-hover" href="designProd.html">CREA TU DISEÑO</a>
+              </li>
+              <li class="nav-item nav-item-hover">
+                <a class="nav-link nav-link-hover" href="coacheo.html">CLASES DE PORCELANA</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="login.html"
+                  ><button class="btn btn-primary">INICIAR SESIÓN</button></a
+                >
+              </li> -->
+            </ul>
+          </div>
+          <div class="bars-menu">
+            <span class="bars__menu-span line1__bars-menu"></span
+            ><span class="bars__menu-span line2__bars-menu"></span
+            ><span class="bars__menu-span line3__bars-menu"></span>
+          </div>
+        </div>
+      </nav>
     </header>
     <main class="container margin-bottom main-container">
-        <div class="row">
-            <div class="container d-flex flex-column">
-                <div class="rect-shape-01"></div>
-                <div class="rect-shape-02"></div>
-                <div class="order-sm-1 order-md-0 order-lg-0 column-1">
-                    <h1 class="main-title mt-sm-4">DISEÑA TUS PRODUCTOS DE PORCELANA</h1>
-                    <p>Diseña y disfruta tus productos de porcelana!</p>
-                    <div class="btn-shape-container mb-sm-4">
-                        <div class="fleat-shape"></div>
-                        <a href="designProd.html"><button class="btn btn-primary go-create-btn">IR A CREAR DISEÑO</button></a>
-                    </div>
-                </div>
-                <div class="display-md-none order-0">
-                    <img class="img-fluid main-mcr-img" src="img/miscreacionesromi.png" alt="">
-                </div>
+      <div class="row">
+        <div class="container d-flex flex-column">
+          <div class="rect-shape-01"></div>
+          <div class="rect-shape-02"></div>
+          <div class="order-sm-1 order-md-0 order-lg-0 column-1">
+            <h1 class="main-title mt-sm-4">
+              DISEÑA TUS PRODUCTOS DE PORCELANA
+            </h1>
+            <p>Diseña y disfruta tus productos de porcelana!</p>
+            <div class="btn-shape-container mb-sm-4">
+              <div class="fleat-shape"></div>
+              <a href="designProd.html"
+                ><button class="btn btn-primary go-create-btn">
+                  IR A CREAR DISEÑO
+                </button></a
+              >
             </div>
+          </div>
+          <div class="display-md-none order-0">
+            <img
+              class="img-fluid main-mcr-img"
+              src="img/miscreacionesromi.png"
+              alt=""
+            />
+          </div>
         </div>
+      </div>
     </main>
     <section id="owl-section">
-        <div class="container my-5">
-            <div class="row">
-                <div class="col-12 d-flex justify-sm-center owl-title-and-shape">
-                    <h3 class="owl-title">PRODUCTOS DISEÑADOS</h3>
-                    <div id="prod-design-shape"></div>
-                </div>
-                <div class="col-12 p-0 owl-carousel-container">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item mb-1">
-                            <a href="tazas.html">
-                                <div class="item-tazas">
-                                    <img class="card-img-top" src="img/img-prod-home/taza.jpg" alt="">
-                                    <div class="under__img">
-                                        <div class="under__img-text">
-                                            <h4>Tazas</h4>
-                                            <p>Explora ya!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item mb-1">
-                            <a href="platos.html">
-                                <div class="item-platos">
-                                    <img class="card-img-top" src="img/img-prod-home/plato15.jpg" alt="">
-                                    <div class="under__img">
-                                        <div class="under__img-text">
-                                            <h4>Platos</h4>
-                                            <p>Explora ya!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item mb-1">
-                            <a href="desayunadores.html">
-                                <div class="item-desayunadores">
-                                    <img class="card-img-top" src="img/img-prod-home/desayunadores.jpg" alt="">
-                                    <div class="under__img">
-                                        <div class="under__img-text">
-                                            <h4>Desayunadores</h4>
-                                            <p>Explora ya!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item mb-1">
-                            <a href="bandejas.html">
-                                <div class="item-bandejas">
-                                    <img class="card-img-top" src="img/img-prod-home/bandejas.jpg" alt="">
-                                    <div class="under__img">
-                                        <div class="under__img-text">
-                                            <h4>Bandejas</h4>
-                                            <p>Explora ya!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item mb-1">
-                            <a href="teaforone-coffe-set.html">
-                                <div class="item-juegos">
-                                    <img class="card-img-top" src="img/img-prod-home/juegodete.jpg" alt="">
-                                    <div class="under__img">
-                                        <div class="under__img-text">
-                                            <h4>Juegos</h4>
-                                            <p>Explora ya!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item mb-1">
-                            <a href="carameleras.html">
-                                <div class="item-juegos">
-                                    <img class="card-img-top" src="img/img-prod-home/carameleracarousel.jpg" alt="">
-                                    <div class="under__img">
-                                        <div class="under__img-text">
-                                            <h4>Carameleras</h4>
-                                            <p>Explora ya!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-12 d-flex justify-sm-center owl-title-and-shape">
+            <h3 class="owl-title">PRODUCTOS DISEÑADOS</h3>
+            <div id="prod-design-shape"></div>
+          </div>
+          <div class="col-12 p-0 owl-carousel-container">
+            <div class="owl-carousel owl-theme">
+              <div class="item mb-1">
+                <a href="tazas.html">
+                  <div class="item-tazas">
+                    <img
+                      class="card-img-top"
+                      src="img/img-prod-home/taza.jpg"
+                      alt=""
+                    />
+                    <div class="under__img">
+                      <div class="under__img-text">
+                        <h4>Tazas</h4>
+                        <p>Explora ya!</p>
+                      </div>
                     </div>
-                </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item mb-1">
+                <a href="platos.html">
+                  <div class="item-platos">
+                    <img
+                      class="card-img-top"
+                      src="img/img-prod-home/plato15.jpg"
+                      alt=""
+                    />
+                    <div class="under__img">
+                      <div class="under__img-text">
+                        <h4>Platos</h4>
+                        <p>Explora ya!</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item mb-1">
+                <a href="desayunadores.html">
+                  <div class="item-desayunadores">
+                    <img
+                      class="card-img-top"
+                      src="img/img-prod-home/desayunadores.jpg"
+                      alt=""
+                    />
+                    <div class="under__img">
+                      <div class="under__img-text">
+                        <h4>Desayunadores</h4>
+                        <p>Explora ya!</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item mb-1">
+                <a href="bandejas.html">
+                  <div class="item-bandejas">
+                    <img
+                      class="card-img-top"
+                      src="img/img-prod-home/bandejas.jpg"
+                      alt=""
+                    />
+                    <div class="under__img">
+                      <div class="under__img-text">
+                        <h4>Bandejas</h4>
+                        <p>Explora ya!</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item mb-1">
+                <a href="teaforone-coffe-set.html">
+                  <div class="item-juegos">
+                    <img
+                      class="card-img-top"
+                      src="img/img-prod-home/juegodete.jpg"
+                      alt=""
+                    />
+                    <div class="under__img">
+                      <div class="under__img-text">
+                        <h4>Juegos</h4>
+                        <p>Explora ya!</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item mb-1">
+                <a href="carameleras.html">
+                  <div class="item-juegos">
+                    <img
+                      class="card-img-top"
+                      src="img/img-prod-home/carameleracarousel.jpg"
+                      alt=""
+                    />
+                    <div class="under__img">
+                      <div class="under__img-text">
+                        <h4>Carameleras</h4>
+                        <p>Explora ya!</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <section id="banner-shadow" class="container-fluid p-0">
-        <div class="d-md-flex banner-bg banner-styled-md-screen">
-            <div class="col-img">
-                <img src="./img/bannerimg.png" alt="">
-            </div>
-            <div class="col-md-7 banner-bg-inside-container banner-content-container">
-                <h1>CLASES DE PINTURA EN PORCELANA</h1>
-                <P>
-                    Consigue tus clases de pintura en porcelana y aprende a hacer tus propios diseños.
-                </P>
-                <a href="coacheo.html"><button class="btn btn-primary btn-ver-mas">VER MÁS</button></a>
-            </div>
+      <div class="d-md-flex banner-bg banner-styled-md-screen">
+        <div class="col-img">
+          <img src="./img/bannerimg.png" alt="" />
         </div>
+        <div
+          class="col-md-7 banner-bg-inside-container banner-content-container"
+        >
+          <h1>CLASES DE PINTURA EN PORCELANA</h1>
+          <p>
+            Consigue tus clases de pintura en porcelana y aprende a hacer tus
+            propios diseños.
+          </p>
+          <a href="coacheo.html"
+            ><button class="btn btn-primary btn-ver-mas">VER MÁS</button></a
+          >
+        </div>
+      </div>
     </section>
     <footer>
-        <div class="container-fluid px-5 py-5 mt-5">
-            <div class="row element-footer">
-                <div class="col-md-6 mb-2">
-                    <h3>Mis Creaciones Romina</h3>
-                    <p>Disfruta de tus productos de porcelana con diseños únicos!</p>
-                    <div class="footer-socials d-inline-flex">
-                        <ul class="row icons-ul">
-                            <li class="col-4"><a class="text-center py-auto" href="https://www.instagram.com/miscreacionesromina/" target="_blank"><i class="fab fa-instagram py-2"></i></a></li>
-                            <li class="col-4"><a class="text-center py-auto" href="https://www.facebook.com/profile.php?id=100010029855842" target="_blank"><i class="fab fa-facebook-f py-2"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md mb-2">
-                    <h5 class="ms-4 categorias-h5">Categorías</h5>
-                    <ul class="footer-menu categorias-menu">
-                        <li class="footer-menu-item"><a href="index.html">INICIO</a></li>
-                        <li class="footer-menu-item"><a href="aboutus.html">ACERCA DE</a></li>
-                        <li class="footer-menu-item"><a href="designProd.html">CREA TU DISEÑO</a></li>
-                        <li class="footer-menu-item"><a href="coacheo.html">CLASES DE PORCELANA</a></li>
-                    </ul>
-                </div>
-                <div class="col-md mb-2 contactanos-menu">
-                    <h5 class="ms-4">Contactános</h5>
-                    <ul class="row d-inline-flex icons-ul">
-                        <li class="col-4"><a class="text-center" href="mailto:rrominalv@gmail.com" target="_blank"><i id="mailto" class="fa fa-envelope py-2"></i></a></li>
-                        <li class="col-4"><a class="text-center"class="text-center"  href="https://wa.me/541158447804" target="_blank"><i id="whatsapp" class="fa-brands fa-whatsapp py-2"></i></a></li>
-                    </ul>
-                </div>
+      <div class="container-fluid px-5 py-5 mt-5">
+        <div class="row element-footer">
+          <div class="col-md-6 mb-2">
+            <h3>Mis Creaciones Romina</h3>
+            <p>Disfruta de tus productos de porcelana con diseños únicos!</p>
+            <div class="footer-socials d-inline-flex">
+              <ul class="row icons-ul">
+                <li class="col-4">
+                  <a
+                    class="text-center py-auto"
+                    href="https://www.instagram.com/miscreacionesromina/"
+                    target="_blank"
+                    ><i class="fab fa-instagram py-2"></i
+                  ></a>
+                </li>
+                <li class="col-4">
+                  <a
+                    class="text-center py-auto"
+                    href="https://www.facebook.com/profile.php?id=100010029855842"
+                    target="_blank"
+                    ><i class="fab fa-facebook-f py-2"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
+          </div>
+          <div class="col-md mb-2">
+            <h5 class="ms-4 categorias-h5">Categorías</h5>
+            <ul class="footer-menu categorias-menu">
+              <li class="footer-menu-item"><a href="index.html">INICIO</a></li>
+              <li class="footer-menu-item">
+                <a href="aboutus.html">ACERCA DE</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="designProd.html">CREA TU DISEÑO</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="coacheo.html">CLASES DE PORCELANA</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md mb-2 contactanos-menu">
+            <h5 class="ms-4">Contactános</h5>
+            <ul class="row d-inline-flex icons-ul">
+              <li class="col-4">
+                <a
+                  class="text-center"
+                  href="mailto:rrominalv@gmail.com"
+                  target="_blank"
+                  ><i id="mailto" class="fa fa-envelope py-2"></i
+                ></a>
+              </li>
+              <li class="col-4">
+                <a
+                  class="text-center"
+                  class="text-center"
+                  href="https://wa.me/541158447804"
+                  target="_blank"
+                  ><i id="whatsapp" class="fa-brands fa-whatsapp py-2"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
 
     <!-- Including cdn files -->
     <!-- 0. Jquery Cdn -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- 1. Owl Carousel Min .js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- Init Owl Carousel -->
-    <script>$('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            576:{
-                items:2
-            },
-            1000:{
-                items:3
-            }
-        }
-    })</script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          576: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main js -->
+    <script src="main.js" module></script>
+  </body>
 </html>
